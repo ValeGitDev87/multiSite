@@ -1,0 +1,10 @@
+{
+    "name": "tuo-username/tuo-progetto",
+    "description": "Un piccolo framework PHP per siti web.",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
