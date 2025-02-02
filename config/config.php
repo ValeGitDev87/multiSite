@@ -18,7 +18,24 @@ return [
         // Se il progetto è in una sottocartella, imposta qui il base URL (ad esempio: '/multisite/public')
         'base_url' => '/multisite/public',
         'debug'    => true,
-    ],
+        'timezone' => 'Europe/Rome',
+        'locale'   => 'it_IT',
+        'charset'  => 'utf-8',
+        'site_name' => 'MultiSite',
+        'favicon' => 'favicon.ico',
 
-    // Altre configurazioni...
+    ],
+  
+
+    'assets' => [
+        'css' => [
+            '/assets/css/style.css',
+            'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css',
+        
+        ],
+        'js'=>[
+            '/assets/js/script.js',
+            'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js'
+        ]
+    ]
 ];
